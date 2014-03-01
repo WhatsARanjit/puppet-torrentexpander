@@ -13,7 +13,7 @@ Requires:
 
 ## Torrentexpander Parameters
 
-`* `install_dir`<br />
+* `install_dir`<br />
 The directory in which to deploy the torrentexpander.sh and torrentexpander_settings.ini files. Required.
 
 * `user`<br />
