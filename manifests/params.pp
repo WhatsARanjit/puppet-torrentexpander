@@ -1,14 +1,13 @@
 class torrentexpander::params {
-  $install_dir                         = undef
   $user                                = 'root'
   $group                               = 'root'
   $manage_rar                          = true
   $tmp_dir                             = '/tmp'
   $unzip_bin                           = '/usr/bin/unzip'
   $get_curl                            = '/usr/bin/wget'
-  $ccd2iso_bin                         = undef
+  $ccd2iso_bin                         = ''
   $text_editor_bin                     = '/usr/bin/vim'
-  $mkvdts2ac3_bin                      = undef
+  $mkvdts2ac3_bin                      = ''
   $torrent_daemon_bin                  = 'incorrect_or_not_set'
   $all_files_script                    = 'incorrect_or_not_set'
   $processed_torrent_script            = 'incorrect_or_not_set'
@@ -19,8 +18,8 @@ class torrentexpander::params {
   $music_post_path                     = 'no'
   $third_party_log                     = 'no'
   $destructive_mode                    = 'no'
-  $user_defined_other_movies_patterns  = undef
-  $user_defined_scene_patterns         = undef
+  $user_defined_other_movies_patterns  = ''
+  $user_defined_scene_patterns         = ''
   $tv_shows_fix_numbering              = 'yes'
   $clean_up_filenames                  = 'yes'
   $movies_rename_schema                = 'type_1'
@@ -57,17 +56,17 @@ class torrentexpander::params {
   $torrent_daemon_password             = 'Conversion11'
   $torrent_daemon_port                 = '9091'
   $all_files_script_enabled            = 'no'
-  $all_files_script_variable_1         = undef
-  $all_files_script_variable_2         = undef
-  $all_files_script_variable_3         = undef
-  $all_files_script_variable_4         = undef
-  $all_files_script_variable_5         = undef
+  $all_files_script_variable_1         = ''
+  $all_files_script_variable_2         = ''
+  $all_files_script_variable_3         = ''
+  $all_files_script_variable_4         = ''
+  $all_files_script_variable_5         = ''
   $processed_torrent_script_enabled    = 'no'
-  $processed_torrent_script_variable_1 = undef
-  $processed_torrent_script_variable_2 = undef
-  $processed_torrent_script_variable_3 = undef
-  $processed_torrent_script_variable_4 = undef
-  $processed_torrent_script_variable_5 = undef
+  $processed_torrent_script_variable_1 = ''
+  $processed_torrent_script_variable_2 = ''
+  $processed_torrent_script_variable_3 = ''
+  $processed_torrent_script_variable_4 = ''
+  $processed_torrent_script_variable_5 = ''
   $post_run_script_enabled             = 'no'
   $unrar_bin                           = '/usr/bin/rar'
 }
