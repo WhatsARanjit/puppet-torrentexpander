@@ -1,0 +1,8 @@
+name    'WhatsARanjit/torrentexpander'
+version '0.0.1'
+source 'https://github.com/WhatsARanjit/puppet-torrentexpander'
+author 'Ranjit Viswakumar'
+license 'Apache License, Version 2.0'
+summary 'Managed the torrentexpander.sh script with Puppet'
+description 'Puppet module to deploy and manage the settings of torrentexpander.sh.'
+project_page 'https://github.com/WhatsARanjit/puppet-torrentexpander'
