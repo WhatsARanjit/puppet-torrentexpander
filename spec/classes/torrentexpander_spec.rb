@@ -54,5 +54,16 @@ describe 'torrentexpander', :type => :class do
         ) }
       end
     end
+    describe "use custom parameters" do
+      context "testing a custom img_post" do
+        let :params do
+          {
+            :install_dir => '/root/bin',
+            :img_post    => 'thisisatestvariable'
+          }
+        end
+        it { should contain_file("/root/bin/torrentexpander_settings.ini").with_content %r{img_post=thisisatestvariable} }
+      end
+    end
   end
 end
