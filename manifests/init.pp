@@ -70,7 +70,7 @@ class torrentexpander (
   $processed_torrent_script_variable_5 = $torrentexpander::params::processed_torrent_script_variable_5,
   $post_run_script_enabled             = $torrentexpander::params::post_run_script_enabled,
   $unrar_bin                           = $torrentexpander::params::unrar_bin,
-) {
+) inherits torrentexpander::params {
   File {
     ensure => file,
     owner  => $user,
